@@ -12,7 +12,7 @@ body{
     /* margin-top: 150px; */
     /* Step 2: setup rows and columns */
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: 70px 700px 1fr;
+    grid-template-rows: 70px 80vh 1fr;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "main main main main main main main main"
@@ -34,8 +34,10 @@ body{
     grid-area: main;
     border: 1px solid black;
     border-radius: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
+    font-size: 30px;
+    letter-spacing: -3px;;
+    /* padding-left: 15px;
+    padding-top: 15px; */
 }
 
 .footer{
@@ -43,4 +45,24 @@ body{
     font-size: 18px;
     letter-spacing: 0px;
     text-align: right;
+}
+
+.date{
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #A1A1A1;
+    text-align: right;
+    padding: 0px;
+}
+
+.link{
+    font-size: 18px;
+    letter-spacing: -0.84px;
+    color: #06B596;
+}
+
+.text{
+    font-size: 18px;
+    letter-spacing: -0.84px;
+    line-height: 80%;
 }

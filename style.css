@@ -8,7 +8,6 @@ body{
     font-size: 18px;
     letter-spacing: 0px;
     color: #06B596;
-    /* text-align: right; */
     padding-top: 10px;
 }
 
@@ -18,7 +17,6 @@ body{
     width: 90%;
     margin: auto;
     /* Step 2: setup rows and columns */
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 30px repeat(7,1fr);
     grid-template-rows: 70px 83vh 1fr;
     grid-template-areas: 
@@ -29,10 +27,7 @@ body{
 }
 
 .box{
-    /* width: 250px; 
-    height: 150px; */
     /* border: 1px solid red; */
-    /* background: #F8FA9D; */
 }
 
 .header{
@@ -48,23 +43,13 @@ body{
 
 .content{
     grid-area: main;
-    /* border: 1px solid black;
-    border-radius: 15px;
-    padding: 15px;
-    font-size: 30px;
-    letter-spacing: -3px;
-    line-height: 80%; */
 } 
 
 .post-container{
-    /* width: 300px;
-    height: 150px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid blue; */
-    /* border-radius: 5px; */
     padding: 15px;
 }
 
@@ -77,8 +62,6 @@ body{
     border: 1px solid black;
     border-radius: 5px;
     font-size: 30px; 
-    /* letter-spacing: -3px; */
-    /* line-height: 80%; */
 }
 
 .date{
@@ -91,14 +74,10 @@ body{
     font-size: 18px;
     letter-spacing: -0.84px;
     text-align: left;
-    /* padding: 15px; */
 }
 
 .footer{
     grid-area: ft;
-    /* font-size: 18px;
-    letter-spacing: 0px; */
     text-align: center;
     padding-top: 25px;
-    /* color: #06B596; */
 }

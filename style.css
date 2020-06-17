@@ -3,6 +3,13 @@ body{
     font-family: "Times New Roman", Times, serif;
     letter-spacing: -3.75px;
 }
+
+.anchor{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #06B596;
+}
+
 .container{
     /* Step 1: Set display to grid */
     display: grid;
@@ -34,6 +41,7 @@ body{
 
 .sidebar{
     grid-area: sd;
+    text-align: center;
 }
 
 .content{
@@ -80,13 +88,15 @@ body{
 .text{
     font-size: 18px;
     letter-spacing: -0.84px;
+    text-align: left;
+    /* padding: 15px; */
 }
 
 .footer{
     grid-area: ft;
-    font-size: 18px;
-    letter-spacing: 0px;
+    /* font-size: 18px;
+    letter-spacing: 0px; */
     text-align: right;
     padding-top: 25px;
-    color: #06B596;
+    /* color: #06B596; */
 }

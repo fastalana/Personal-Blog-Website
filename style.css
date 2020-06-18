@@ -5,6 +5,11 @@ body{
 }
 
 /* TYPOGRAPHY CLASSES */
+.title{
+    font-size: 30px;
+    letter-spacing: -2px;
+    text-align: left;
+}
 
 .anchor{
     font-size: 18px;
@@ -13,7 +18,7 @@ body{
     padding-top: 10px;
 }
 
-.date{
+.small{
     font-size: 12px;
     letter-spacing: 0px;
     color: #A1A1A1;
@@ -32,7 +37,7 @@ body{
     width: 90%;
     margin: auto;
     grid-template-columns: 30px repeat(5,1fr);
-    grid-template-rows: 70px 83vh;
+    grid-template-rows: 70px 1350px 30px;
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "main main main main main main"
@@ -63,20 +68,18 @@ body{
 }
 
 .box-container{
-    min-width: 250px;
-    height: 20vh;
-    margin-left: 25px;
-    margin-right: 25px;
+    width: 250px;
+    max-height: 200px;
+    margin: auto;
     padding: 15px;
     border: 1px solid black;
     border-radius: 5px;
-    font-size: 30px; 
 }
 
 .footer{
     grid-area: ft;
     text-align: center;
-    padding-top: 25px;
+    /* padding-top: 25px; */
 }
 
 /* Tablet */

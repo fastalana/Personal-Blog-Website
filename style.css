@@ -49,10 +49,6 @@ body{
 .box-container{
     width: 250px;
     max-height: 200px;
-    margin: auto;
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
 }
 
 /* Tablet */
@@ -74,10 +70,6 @@ body{
     .box-container{
         width: 750px;
         max-height: 200px;
-        margin: auto;
-        padding: 15px;
-        border: 1px solid black;
-        border-radius: 5px;
     }
 }
 
@@ -99,12 +91,7 @@ body{
     .box-container{
         width: 750px;
         max-height: 200px;
-        margin-left: 25px;
-        margin-right: 25px;
-        padding: 15px;
-        border: 1px solid black;
-        border-radius: 5px;
-        font-size: 30px; 
+        margin: auto;
     }
 }
 
@@ -118,6 +105,13 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+
+.box-container{
+    margin: auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .header{

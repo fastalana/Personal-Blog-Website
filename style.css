@@ -96,33 +96,6 @@ body{
         border: 2px solid yellow;
     }
 
-    /* .box{
-        border: 1px solid red;
-    }
-
-    .header{
-        grid-area:hd;
-        text-align: center;
-    } */
-
-    /* .sidebar{
-        grid-area: sd;
-        text-align: center;
-    } */
-
-    /* .content{
-        grid-area: main;
-    }  */
-
-    /* .post-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-        border: 1px solid yellow;
-    } */
-
     .box-container{
         width: 750px;
         max-height: 200px;

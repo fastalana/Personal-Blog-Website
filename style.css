@@ -33,9 +33,6 @@ body{
 /* LAYOUT CLASSES */
 /* Phone */
 .container{
-    display: grid;
-    width: 90%;
-    margin: auto;
     grid-template-columns: 30px repeat(5,1fr);
     grid-template-rows: 70px 1350px 700px 30px;
     grid-template-areas: 
@@ -43,7 +40,6 @@ body{
     "main main main main main main"
     "sd sd sd sd sd sd"
     "ft ft ft ft ft ft";
-    border: 2px solid yellow;
 }
 
 .box-container{
@@ -54,9 +50,6 @@ body{
 /* Tablet */
 @media (min-width:600px) and (max-width:900px){
     .container{
-        display: grid;
-        width: 90%;
-        margin: auto;
         grid-template-columns: 30px repeat(5,1fr);
         grid-template-rows: 70px 1100px 700px 30px;
         grid-template-areas: 
@@ -64,7 +57,6 @@ body{
         "main main main main main main"
         "sd sd sd sd sd sd"
         "ft ft ft ft ft ft";
-        border: 2px solid yellow;
     }
     
     .box-container{
@@ -76,16 +68,12 @@ body{
 /* Desktop */
 @media (min-width:901px){
     .container{
-        display: grid;
-        width: 90%;
-        margin: auto;
         grid-template-columns: 30px repeat(7,1fr);
         grid-template-rows: 70px 1200px 30px;;
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
         "main main main main main main sd sd"
         "ft ft ft ft ft ft ft ft";
-        border: 2px solid yellow;
     }
 
     .box-container{
@@ -95,8 +83,14 @@ body{
     }
 }
 
-.box{
+/* .box{
     border: 1px solid red;
+} */
+
+.container{
+    display: grid;
+    width: 90%;
+    margin: auto;
 }
 
 .post-container{

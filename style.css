@@ -64,7 +64,6 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    /* border: 1px solid yellow; */
 }
 
 .box-container{
@@ -79,7 +78,6 @@ body{
 .footer{
     grid-area: ft;
     text-align: center;
-    /* padding-top: 25px; */
 }
 
 /* Tablet */

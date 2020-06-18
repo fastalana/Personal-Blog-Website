@@ -37,10 +37,11 @@ body{
     width: 90%;
     margin: auto;
     grid-template-columns: 30px repeat(5,1fr);
-    grid-template-rows: 70px 1350px 30px;
+    grid-template-rows: 70px 1350px 700px 30px;
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "main main main main main main"
+    "sd sd sd sd sd sd"
     "ft ft ft ft ft ft";
     border: 2px solid yellow;
 }
@@ -75,23 +76,81 @@ body{
     border-radius: 5px;
 }
 
+.sidebar{
+    grid-area: sd;
+    text-align: center;
+}
+
 .footer{
     grid-area: ft;
     text-align: center;
 }
 
 /* Tablet */
-/* @media (min-width:600px) and (max-width:900px){
-} */
+@media (min-width:600px) and (max-width:900px){
+    .container{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        grid-template-columns: 30px repeat(5,1fr);
+        grid-template-rows: 70px 1100px 700px 30px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd"
+        "main main main main main main"
+        "sd sd sd sd sd sd"
+        "ft ft ft ft ft ft";
+        border: 2px solid yellow;
+    }
+    
+    .box{
+        border: 1px solid red;
+    }
+    
+    .header{
+        grid-area:hd;
+        text-align: center;
+    }
+    
+    .content{
+        grid-area: main;
+    } 
+    
+    .post-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .box-container{
+        width: 750px;
+        max-height: 200px;
+        margin: auto;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .sidebar{
+        grid-area: sd;
+        text-align: center;
+    }
+    
+    .footer{
+        grid-area: ft;
+        text-align: center;
+    }
+}
 
 /* Desktop */
-/* @media (min-width:901px){
+@media (min-width:901px){
     .container{
         display: grid;
         width: 90%;
         margin: auto;
         grid-template-columns: 30px repeat(7,1fr);
-        grid-template-rows: 70px 83vh 1fr;
+        grid-template-rows: 70px 1200px 30px;;
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
         "main main main main main main sd sd"
@@ -127,8 +186,8 @@ body{
     }
 
     .box-container{
-        width: 35vw;
-        height: 20vh;
+        width: 750px;
+        max-height: 200px;
         margin-left: 25px;
         margin-right: 25px;
         padding: 15px;
@@ -140,6 +199,5 @@ body{
     .footer{
         grid-area: ft;
         text-align: center;
-        padding-top: 25px;
     }
-} */
+}

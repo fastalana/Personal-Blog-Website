@@ -34,7 +34,7 @@ body{
 /* Phone */
 .container{
     grid-template-columns: 30px repeat(5,1fr);
-    grid-template-rows: 70px 1350px 700px 30px;
+    grid-template-rows: 70px 1350px 650px 30px;
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "main main main main main main"
@@ -120,6 +120,7 @@ body{
 .sidebar{
     grid-area: sd;
     text-align: center;
+    padding-left: 10px;
 }
 
 .footer{

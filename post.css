@@ -33,52 +33,36 @@ body{
 /* LAYOUT CLASSES */
 /* Phone */
 .container{
-    display: grid;
-    width: 95%;
-    margin: auto;
-    grid-template-columns: repeat(8,1fr);
     grid-template-rows: 70px 1300px 1fr;
-    grid-template-areas: 
-    "hd hd hd hd hd hd hd hd"
-    "main main main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-    /* border: 12px solid yellow;  */
 }
 
 /* Tablet */
 @media (min-width:600px) and (max-width:900px){
     .container{
-        display: grid;
-        width: 95%;
-        margin: auto;
-        grid-template-columns: repeat(8,1fr);
         grid-template-rows: 70px 900px 1fr;
-        grid-template-areas: 
-        "hd hd hd hd hd hd hd hd"
-        "main main main main main main main main"
-        "ft ft ft ft ft ft ft ft";
-        /* border: 12px solid yellow;  */
     }
 }
 
 /* Desktop */
 @media (min-width:901px){
     .container{
-        display: grid;
-        width: 95%;
-        margin: auto;
-        grid-template-columns: repeat(8,1fr);
         grid-template-rows: 70px 600px 1fr;
-        grid-template-areas: 
-        "hd hd hd hd hd hd hd hd"
-        "main main main main main main main main"
-        "ft ft ft ft ft ft ft ft";
-        /* border: 12px solid yellow;  */
     }
 }
 
 .box{
     /* border: 1px solid red; */
+}
+
+.container{
+    display: grid;
+    width: 95%;
+    margin: auto;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
 }
 
 .header{

@@ -1,11 +1,11 @@
-body{
+/* body{
     font-size: 48px; 
     font-family: "Times New Roman", Times, serif;
     letter-spacing: -3.75px;
-}
+} */
 
 /* TYPOGRAPHY CLASSES */
-.title{
+/* .title{
     font-size: 30px;
     letter-spacing: -2px;
     text-align: left;
@@ -28,7 +28,7 @@ body{
     font-size: 18px;
     letter-spacing: -0.84px;
     text-align: left;
-}
+} */
 
 /* LAYOUT CLASSES */
 /* Phone */

@@ -12,7 +12,6 @@
 
 .box-container{
     width: 250px;
-    max-height: 200px;
 }
 
 /* Tablet */
@@ -29,7 +28,6 @@
     
     .box-container{
         width: 750px;
-        max-height: 200px;
     }
 }
 
@@ -46,8 +44,6 @@
 
     .box-container{
         width: 750px;
-        max-height: 200px;
-        margin: auto;
     }
 }
 
@@ -74,6 +70,7 @@
     padding: 15px;
     border: 1px solid black;
     border-radius: 5px;
+    max-height: 200px;
 }
 
 .header{

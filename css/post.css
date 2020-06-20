@@ -4,20 +4,20 @@
 /* LAYOUT CLASSES */
 /* Phone */
 .container{
-    grid-template-rows: 70px 1300px 1fr;
+    grid-template-rows: 70px 1700px 1fr;
 }
 
 /* Tablet */
 @media (min-width:600px) and (max-width:900px){
     .container{
-        grid-template-rows: 70px 1110px 1fr;
+        grid-template-rows: 70px 1500px 1fr;
     }
 }
 
 /* Desktop */
 @media (min-width:901px){
     .container{
-        grid-template-rows: 70px 1000px 1fr;
+        grid-template-rows: 70px 1200px 1fr;
     }
 }
 

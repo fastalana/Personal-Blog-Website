@@ -4,6 +4,6 @@ This project was built from scratch for the Front End Developer Nanodegree for U
 
 ### Style Guide
 
-![Style Guide](StyleGuide.png)
+![Style Guide](static/StyleGuide.png)
 
 

@@ -43,6 +43,13 @@ p{
     text-align: left;
 }
 
+blockquote{
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #A1A1A1;
+}
+
 .bold{
     font-style: bold;
 }
@@ -55,7 +62,3 @@ p{
     text-decoration: underline;
 } 
 
-.quotation{
-    font-size: 72px;
-    text-align: left;
-}

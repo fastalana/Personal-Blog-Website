@@ -40,3 +40,10 @@ figcaption {
     font-size: 18px;
     letter-spacing: -0.84px;
 }
+
+.card {
+    filter: grayscale(100%);
+}
+  
+
+  
